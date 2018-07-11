@@ -7,7 +7,7 @@ Deploy to get token with javascript setup. Can use firebase hosting because we n
 ## Firebase get token
 Folder "public" follow instruciton https://firebase.google.com/docs/cloud-messaging/js/client
 
-- Must need mainfest.json and firebase-messaging-sw.js just copy it and should not modify. And they should be place in root web. Just change config filebase, find var config ={ ... }
+- Must need mainfest.json and firebase-messaging-sw.js just copy it and should not modify. And they should be place in root web. Just change config firebase, find var config = { ... }
 - file app.js your own script to working with firebase
 - find and replace your own config firebase (app.js , firebase-messaging-sw.js)
     // Initialize Firebase
