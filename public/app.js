@@ -42,6 +42,8 @@ messaging.onTokenRefresh(function() {
   messaging.getToken().then(function(refreshedToken) {
     console.log('Token refreshed.');
     console.log(refreshedToken);
+    // should call ajax to savetoken 
+    // http://localhost:53188/firebase/savetoken?token=
   }).catch(function(err) {
     console.log('Unable to retrieve refreshed token ', err);
   });
