@@ -1,0 +1,3 @@
+Install hosting google firebase
+
+https://firebase.google.com/docs/hosting/quickstart
