@@ -9,6 +9,9 @@ Folder "public" follow instruciton https://firebase.google.com/docs/cloud-messag
 
 - Must need mainfest.json and firebase-messaging-sw.js just copy it and should not modify. And they should be place in root web.
 - file app.js your own script to working with firebase
+- find and replace your own config firebase (app.js , firebase-messaging-sw.js)
+    // Initialize Firebase
+    var config = { ...}
 
 # Folder "Api.FirebaseNotification" C#
 FirebaseController Asp.net restfulApi
