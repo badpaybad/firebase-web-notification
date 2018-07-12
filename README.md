@@ -4,6 +4,12 @@ Create your project firebase https://console.firebase.google.com/u/0/ you will n
 # Folder "public"
 Deploy to get token with javascript setup. Can use firebase hosting because we need https https://firebase.google.com/docs/hosting/quickstart or you can use your own domain with ssl.
 
+Change to your prj folder
+npm install -g firebase-tools
+$ firebase login
+$ firebase init
+$ firebase deploy --project yourprojectid
+
 ## Firebase get token
 Folder "public" follow instruciton https://firebase.google.com/docs/cloud-messaging/js/client
 
