@@ -24,7 +24,8 @@ firebase.initializeApp(config);
 
     $.ajax({
       url: 'http://localhost:53188/firebase/savetoken?token='+token,
-      type: "POST",
+      type: "GET",
+      crossDomain : true,
       data: {},
       success: function (res) {
         alert("success: "+res);
